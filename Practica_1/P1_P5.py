@@ -1,20 +1,6 @@
 import numpy as np
 from math import pi
-"""class calculadorabasica:
-	def __init__(self, x1, y1):
-		self.x = x1
-		self.y = y1
-	def suma(self):
-		return self.x+self.y
-	def resta(self):
-		return self.x-self.y
-	def division(self):
-		if (self.y==0):
-			print('No se puede dividir por cero')
-		else:
-			return self.x/self.y
-	def multiplicacion(self):
-		return self.x*self.y"""
+
 class calculadorabasica:
 	def suma(self,x,y):
 		return x+y
