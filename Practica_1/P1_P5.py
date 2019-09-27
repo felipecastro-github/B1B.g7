@@ -15,11 +15,11 @@ class calculadorabasica:
 		return x*y
 		
 class calculadoracientifica(calculadorabasica):
-	def cos (self,x):
+	def coseno (self,x):
 		return np.cos(x)
-	def sin (self, x):
+	def seno (self, x):
 		return np.sin(x)
-	def exp (self, x):
+	def expo (self, x):
 		return np.exp(x)
 				
 
