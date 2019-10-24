@@ -10,3 +10,6 @@ no es necesaria la linea sys.path.append('La direccion de la carpeta do-
 nde se encuentra la librería'), Ej: sys.path.append('/home/felipe/Docum-
 entos/8_semestre/Comu_II/B1B.g7/Librerias').
 
+Algunas de las librerías usadas fueron tomadas del libro "Comunicacione-
+s Digitales basadasen radio definida por software, Hortega y Reyes"
+
