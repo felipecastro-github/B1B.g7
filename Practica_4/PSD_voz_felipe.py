@@ -23,8 +23,8 @@ class flujograma(gr.top_block):
                 taps=None
         )
 		str2vec=blocks.stream_to_vector(gr.sizeof_float*1, N)
-		v_avg=misbloques.vector_average_hob(N,10000)
 		e_fft=misbloques.e_vector_fft_square_ff(N,samp_rate)
+		v_avg=misbloques.vector_average_hob(N,10000)
 		snk = qtgui.time_sink_f(N,samp_rate,"senal en tiempo",1)
 		vsnk = qtgui.vector_sink_f(
 			N,
