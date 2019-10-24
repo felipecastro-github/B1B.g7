@@ -30,9 +30,9 @@ class flujograma(gr.top_block):
 			N,
 			-samp_rate/2.,
 			(samp_rate*1.0)/N,
-			"frecuencia",
+			"frecuencia [Hz]",
 			"Magnitud",
-			"FT en Magnitud",
+			"PSD",
 			1
 		)
 		vsnk.enable_autoscale(True)
