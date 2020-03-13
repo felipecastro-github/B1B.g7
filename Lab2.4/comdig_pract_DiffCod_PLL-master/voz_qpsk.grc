@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?grc format='1' created='3.7.13'?>
+<?grc format='1' created='3.7.11'?>
 <flow_graph>
   <timestamp>Sat Jul 12 13:50:53 2014</timestamp>
   <block>
@@ -73,20 +73,12 @@
       <value>run_stop</value>
     </param>
     <param>
-      <key>sizing_mode</key>
-      <value>fixed</value>
-    </param>
-    <param>
       <key>thread_safe_setters</key>
       <value></value>
     </param>
     <param>
       <key>title</key>
       <value>BER Simulation</value>
-    </param>
-    <param>
-      <key>placement</key>
-      <value>(0,0)</value>
     </param>
   </block>
   <block>
@@ -475,7 +467,7 @@
     </param>
     <param>
       <key>gui_hint</key>
-      <value>1,0,1,1</value>
+      <value></value>
     </param>
     <param>
       <key>_rotation</key>
@@ -895,7 +887,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>11000</value>
+      <value>11025</value>
     </param>
   </block>
   <block>
@@ -1186,7 +1178,7 @@
     </param>
     <param>
       <key>Ch_Phoffset</key>
-      <value>0</value>
+      <value>(numpy.pi)*2*random.random()</value>
     </param>
     <param>
       <key>Ch_Toffset</key>
@@ -1587,7 +1579,7 @@
     </param>
     <param>
       <key>const</key>
-      <value>1./Sps</value>
+      <value>300e-3</value>
     </param>
     <param>
       <key>affinity</key>
@@ -1858,7 +1850,7 @@
     </param>
     <param>
       <key>file</key>
-      <value>/home/uis-e3t/MisGits/comdig_pract_M_PSK/bush-clinton_debate_waffle.wav</value>
+      <value>/home/uis-e3t/Documentos/B1B.g7/Lab2.4/comdig_pract_DiffCod_PLL-master/Imagine Dragons - Believer ( Solo Voz ).wav</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2300,7 +2292,7 @@ print("codigo inverso = ", mapinverse)
     </param>
     <param>
       <key>gui_hint</key>
-      <value>2,0,1,4</value>
+      <value>1,0,1,4</value>
     </param>
     <param>
       <key>_rotation</key>
