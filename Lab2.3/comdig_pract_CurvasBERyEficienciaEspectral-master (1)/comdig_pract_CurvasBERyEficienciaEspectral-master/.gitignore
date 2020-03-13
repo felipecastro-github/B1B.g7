@@ -1,0 +1,5 @@
+# ignorar los siguientes casos
+*.py
+*.pyc
+pruebas/
+obsoleto/
